@@ -1,0 +1,81 @@
+@import "base/base",
+        "base/reset",
+        "base/typo";
+
+.text-center {
+   h2 {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 32px;
+        padding-bottom: 16px;
+   }
+}
+
+.content, .loading {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.content{    
+    background-color: #93d5f0;    
+    border: 0.5px solid rgb(204, 204, 204);
+}
+
+.temperature {    
+    height: 300px;
+    font-size: 24px;
+    padding-top: 30px;   
+    color: white;   
+
+    img {
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+        float: left;
+        margin-left: 140px;
+    }
+
+    h5 {
+        text-transform: uppercase;
+        font-size: 8px;
+        display: block;
+        padding-top: 150px;
+    }
+
+    p {
+        font-size: 50px;
+        margin-top: 10px;
+        float: left;
+    }
+
+    h5, p {        
+        padding-left: 50px;
+    }
+} 
+
+.details {    
+    background-color: white;
+    font-size: 16px;     
+        
+    div {
+        display: inline-block;
+        padding: 24px;
+    }
+    
+    img {
+        width: 32px;
+        height: 32px;
+        background-size: contain;
+        float:left;  
+        margin-right: 10px;      
+    }
+
+    p {
+        color: rgb(29, 29, 29);
+    }
+
+    h5{
+        color: rgb(190, 184, 184);
+    }
+}
+
